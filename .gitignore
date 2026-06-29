@@ -1,0 +1,17 @@
+# Environment
+.env
+
+# IDE
+.vscode/
+
+# Python
+**/__pycache__/
+.pytest_cache/
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+# HydroScirpt & script run outputs
+**/Result/
+**/Visualization/

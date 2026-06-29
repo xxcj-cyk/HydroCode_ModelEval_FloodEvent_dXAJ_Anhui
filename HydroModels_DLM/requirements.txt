@@ -1,0 +1,7 @@
+# PyTorch must be the CUDA wheel (not default cpu). Example:
+#   pip uninstall torch -y
+#   pip install torch --index-url https://download.pytorch.org/whl/cu126
+# Do not `pip install -r requirements.txt` alone for torch — it pulls cpu on PyPI.
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.66.0
